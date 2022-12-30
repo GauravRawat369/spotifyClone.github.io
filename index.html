@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css"
+        integrity="sha512-NtU/Act0MEcVPyqC153eyoq9L+UHkd0s22FjIaKByyA6KtZPrkm/O5c5xzaia4pyCfReCS634HyQ7tJwKNxC/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <i class="fa fa-brands fa-spotify"></i>
+            <span>Spotify</span>
+        </div>
+        <label for="check" class="bar">
+            <input onclick="push()" id="check" type="checkbox">
+        
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </label>
+        <ul class="list">
+            <li><a href="#">Premium</a> </li>
+            <li><a href="#">Support</a> </li>
+            <li><a href="#">Download</a> </li>
+            <a class="empty-list" href="#"></a>
+            <li><a href="#">Sign up</a>  </li>
+            <li><a href="#">Log in </a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="content-text">
+            <span class="content-main-text1">
+                Ends soon: ₹0 for 3 months of Premium
+            </span>
+            <span class="content-main-text2">Don't miss ad-free music listening, offline playback, and more. Cancel anytime.</span>
+            <div class="button-div">
+                <button class="button1">GET 3 MONTHS FOR ₹0</button>
+                <button class="button2">VIEW PLANS</button>
+            </div>
+            <span class="content-main-text3">Individual plan only. ₹119/month after. Terms and conditions apply. Open only to users who haven't already tried Premium. Offer ends 31/12/22.</span>
+        </div>
+        <div class="content-img">
+            <div class="img1"></div>
+        </div>
+    </div>
+    <div class="intro-div">
+        <span class="intro-text1">Introducing Premium Mini</span>
+        <span class="intro-text2">₹7 for 1 day.</span>
+        <span class="intro-text3">₹25 for 1 week.</span>
+        <div class="intro-button-div">
+            <button class="intro-button1">GET MINI</button>
+            <button class="intro-button2">SEE OTHER PLANS</button>
+        </div>
+        <span class="intro-text4">Terms and conditions apply.</span>
+    </div>
+    <div class="div-premium">
+        <span class="premium-text">The power of Premium</span>
+        <div class="child-div-premium">
+            <div class="child ">
+                <img src="images/child1.png" class="child-img">
+                <span class="child-text1">Ad-free music listening</span>
+                <span class="child-text2">Enjoy uninterrupted music.</span>
+            </div>
+            <div class="child ">
+                <img src="images/child2.png" class="child-img">
+                <span class="child-text1">Offline playback</span>
+                <span class="child-text2">Save your data by listening offline.</span>
+            </div>
+            <div class="child ">
+                <img src="images/child3.png" class="child-img">
+                <span class="child-text1">Play everywhere</span>
+                <span class="child-text2">Listen on your speakers, TV, and other favorite devices.</span>
+            </div>
+            <div class="child ">
+                <img src="images/child4.png" class="child-img">
+                <span class="child-text1">Pay your way</span>
+                <span class="child-text2">Prepay with Paytm, UPI, and more.</span>
+            </div>
+        </div>
+    </div>
+    <!-- premium div over -->
+    <div class="div-connect">
+        <span class="premium-text white">Connect with music culture</span>
+        <div class="child-div-connect">
+            <div class="child ">
+                <img src="images/i1.png" class="child-img">
+                <span class="child-text1 white">Bollywood Butter</span>
+                <span class="child-text2 white">The finest quality Bollywood music handpicked for you.</span>
+            </div>
+            <div class="child ">
+                <img src="images/i2.png" class="child-img">
+                <span class="child-text1 white">Punjabi 101</span>
+                <span class="child-text2 white">The ultimate Punjabi hits.</span>
+            </div>
+            <div class="child ">
+                <img src="images/i3.png" class="child-img">
+                <span class="child-text1 white">Tollywood Pearls</span>
+                <span class="child-text2 white">The finest music from Telugu films.</span>
+            </div>
+            <div class="child ">
+                <img src="images/i4.png" class="child-img">
+                <span class="child-text1 white">Hot Hits India</span>
+                <span class="child-text2 white">50 hottest hits from across the globe.</span>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
