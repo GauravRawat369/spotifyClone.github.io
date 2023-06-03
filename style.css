@@ -355,7 +355,7 @@
         justify-content: unset;
         height: 100vh;
         background-color: #000;
-        left: 152%;
+        /* left: 152%; */
         top: 65px;
         margin-left: 50px;
         transform: all .9s;
@@ -423,6 +423,9 @@
 }
 
 @media screen and (max-width: 485px) {
+    .header ul {
+        width: 42%;
+    }
     .button2 {
         margin-top: 10px;
         margin-left: 5px;
@@ -487,21 +490,12 @@
     }
 }
 
-@media screen and (max-width: 380px) {
-    .header ul {
-        width: 100%;
-        left: 0;
-        top: 0;
-        margin-left: 0;
+@media screen and (max-width: 385px) {
+     .header ul {
         padding: 20px;
     }
-    .header ul li {
-        width: 100%;
-    }
-    .button2 {
-        margin-top: 10px;
-        margin-left: 5px;
-        font-weight: 700;
+    .header ul {
+        width: 50%;
     }
     .intro-text1 {
         margin-top: 40px;
