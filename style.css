@@ -375,5 +375,173 @@
     }
     .bar {
         display: block;
+    }
+    .child-text1 {
+        margin-top: 30px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .child-text2 {
+        margin-top: 30px;
+        font-size: 10px;
+        font-weight: 600;
+        margin: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 550px) {
+    .content {
+        height: auto;
+    }
+    .content-main-text1 {
+        color: white;
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .content-main-text2 {
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .intro-text1 {
+        margin-top: 40px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .premium-text {
+        margin-top: 40px;
+        color: #000;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .white-heading{
+        color: white;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .button2 {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-weight: 700;
+    }
+    .intro-text1 {
+        margin-top: 40px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .content-main-text1 {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .content-main-text2 {
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .intro-text1 {
+        margin-top: 40px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .premium-text {
+        margin-top: 40px;
+        color: black;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .child-div-premium {
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction:column;
       }
+      .div-premium {
+        height: 1300px;
+    }
+    .child {
+        margin-top: 20px;
+    }
+    .child-div-connect {
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction:column;
+      }
+      .div-connect {
+        height: 1300px;
+    }
+    .child {
+        margin-top: 20px;
+    }
+    .white-heading{
+        color: white;
+        font-size: 30px;
+    }
+    .child-text1 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .header ul {
+        width: 100%;
+        left: 0;
+        top: 0;
+        margin-left: 0;
+        padding: 20px;
+    }
+    .header ul li {
+        width: 100%;
+    }
+    .button2 {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-weight: 700;
+    }
+    .intro-text1 {
+        margin-top: 40px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .content-main-text1 {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .content-main-text2 {
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .intro-text1 {
+        margin-top: 40px;
+        font-size: 25px;
+        
+    }
+    .premium-text {
+        margin-top: 40px;
+        color: black;
+        font-size: 25px;
+        
+    }
+    .white-heading{
+        color: white;
+        font-size: 25px;
+    }
+    .child-text1 {
+        font-size: 10px;
+    }
+    .child-text2 {
+        font-size: 8px;
+    }
+    .header ul{
+        left:60%;
+    }
 }
